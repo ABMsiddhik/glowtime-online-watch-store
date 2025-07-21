@@ -184,7 +184,7 @@ const Home = () => {
                       {slide.cta}
                     </Link>
                     <Link
-                      to="/about"
+                      to="/"
                       className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-black transition-all duration-300 shadow-lg hover:shadow-xl"
                     >
                       Learn More
