@@ -65,7 +65,7 @@ const handleSubmit = async (e) => {
     console.log('Payload:', JSON.stringify(payload)); // Debug log
 
     // Save to Google Sheets
-    await fetch('https://script.google.com/macros/s/AKfycbzCXff0VKsV4MHodrOSFBp85KDCocmQ2eZxnI8pyaB_Dkif4JO92dKJpFk8CiqC2O-a/exec', {
+    await fetch('https://script.google.com/macros/s/AKfycbyMiit1VMjnOqCInpnDQqScUGZLWqIZLUWeVqASqVm3j_aDZtF_W92_kJiwn54P0P0i/exec', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
